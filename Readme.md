@@ -49,8 +49,8 @@ project/
 | `viz/graphs.py` | Matplotlib diagrams |
 | `viz/sequence.py` | HTML rendering |
 | `viz/styles.py` | CSS constants |
-
 Each file has one clear job.
+
 ---
 
 ## Pattern Syntax
