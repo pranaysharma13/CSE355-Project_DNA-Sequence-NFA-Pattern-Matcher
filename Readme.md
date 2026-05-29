@@ -38,20 +38,19 @@ project/
 ```
 
 ### Why this structure?
-| File | Responsibility | ~Lines |
-|---|---|---|
-| `app.py` | Streamlit layout, user interaction | ~200 |
-| `nfa/states.py` | Data structures only | ~50 |
-| `nfa/thompson.py` | One function per operator | ~80 |
-| `nfa/parser.py` | Grammar + recursive descent | ~70 |
-| `nfa/simulate.py` | ε-closure + matching | ~60 |
-| `nfa/subset.py` | Subset construction | ~40 |
-| `viz/graphs.py` | Matplotlib diagrams | ~100 |
-| `viz/sequence.py` | HTML rendering | ~40 |
-| `viz/styles.py` | CSS constants | ~80 |
+| File | Responsibility |
+|---|---|
+| `app.py` | Streamlit layout, user interaction |
+| `nfa/states.py` | Data structures only |
+| `nfa/thompson.py` | One function per operator |
+| `nfa/parser.py` | Grammar + recursive descent |
+| `nfa/simulate.py` | ε-closure + matching |
+| `nfa/subset.py` | Subset construction |
+| `viz/graphs.py` | Matplotlib diagrams |
+| `viz/sequence.py` | HTML rendering |
+| `viz/styles.py` | CSS constants |
 
-Each file has one clear job. During your presentation, you can open exactly the file the professor asks about.
-
+Each file has one clear job.
 ---
 
 ## Pattern Syntax
